@@ -46,6 +46,7 @@ action = prompt("What would you like to do?")
 ## Experience
 * [Museum of Candy](https://github.com/lajulia19/udemy-museum-of-candy) (HTML, CSS, Bootstrap)
 * [Photo blog](https://github.com/lajulia19/udemy-photo-blog) (HTML, CSS)
+
 ## Education
 * Vitebsk State University (Foreign languages and Literature Departmnet)
 ### Courses
