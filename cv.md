@@ -2,7 +2,7 @@
 
 ## Contacts
 * [Linkedin](https://www.linkedin.com/in/julia-rogova-29b17511b/)
-* [E-mail](lajulia1903@gmail.com)
+* [E-mail](mailto:lajulia1903@gmail.com)
 * [Telegram](https://t.me/thejulia19) 
 
 ## About myself
@@ -47,7 +47,7 @@ action = prompt("What would you like to do?")
 * [Museum of Candy](https://github.com/lajulia19/udemy-museum-of-candy) (HTML, CSS, Bootstrap)
 * [Photo blog](https://github.com/lajulia19/udemy-photo-blog) (HTML, CSS)
 ## Education
-* Vitebsk State University (Foreign languages and literature faculty)
+* Vitebsk State University (Foreign languages and Literature Departmnet)
 ### Courses
 * HTML, CSS, and Javascript for Web Developers (Coursera)
 * HTML Essential Training (LinkedIn)
