@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+                <div class="header-content">
+                    <div class="header-img">
+                    <img src="image.jpg" alt="Profile photo" id="photo">
+                </div>
+                    <div class="header-desc">
+                <h1 class="section-title" id="profile">Julia Rogova</h1>
+                <h2>Software Developer</h2>
+                <hr>
+            </div>
+            </div>
+            </nav>
+        </div>
+            <!-- <section class="section" id="profile"> -->
+            <!-- </section> -->
+            <!-- <h1 class="section-title" id="profile">Julia Rogova</h1> -->
+
+
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <!-- <section class="section" id="profile"><h1 class="section-title">Julia Rogova</h1></section> -->
+              <div class="left">
+            <section class="section" id="about"><h2 class="section-title">About me</h2>
+            <p>Beginner software developer looking to pursue an opportunity that would allow me to expand my skillset and develop quality software solutions later on. Passionate about learning new technologies and able to quickly grasp new concepts.
+            </p>
+            </section>
+
+            <section class="section" id="skills"><h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git, GitHub</li>
+            </ul>
+              </section>
+            <section class="section" id="contacts"><h2 class="section-title">Contacts</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/julia-rogova-29b17511b/" target="_blank">LinkedIn</a></li>
+                <li><a href = "mailto:lajulia1903@gmail.com">E-mail</a></li>
+                <li><a href="https://t.me/thejulia19">Telegram</a></li>
+            </ul>
+            </section>
+            <section class="section" id="languages"><h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>English (C2 – Proficient)</li>
+                    <li>French (A2 – Pre-intermediate)</li>
+                    <li>Russian (Native)</li>
+                </ul>
+            </section>
+        </div>
+
+          <div class="right">
+        <section class="section" id="education"><h2 class="section-title">Education</h2>
+            <h3>Vitebsk State University</h3>
+            <h4>Foreign Languages and Literature Department</h4>
+            <h2>Courses</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" target="_blank">HTML, CSS, and Javascript for Web Developers (Coursera)</a></li>
+                <li><a href="https://www.linkedin.com/learning/html-essential-training-4" target="_blank">HTML Essential Training (LinkedIn)</a></li>
+                <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">Responsive Web Design (Freecodecamp)</a></li>
+                <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank">The Web Developer Bootcamp 2022 (Udemy)</a></li>
+            </ul>
+            </section>
+        <section class="section" id="projects"><h2 class="section-title">Projects</h2>
+        <ul>
+            <li><a href="https://lajulia19.github.io/udemy-museum-of-candy/" target="_blank">Museum of Candy (HTML, CSS, Bootstrap)</a></li>
+            <li><a href="https://lajulia19.github.io/udemy-photo-blog/" target="_blank">Photo blog (HTML, CSS)</a></li>
+        </ul>
+        </section>
+        <section class="section" id="code"><h2 class="section-title">Code</h2>
+            <pre><code>
+                let action = prompt("What would you like to do?")
+                const myList = ["Take garbage out", "Clean cat litter"]
+
+                while (action !== "quit") {
+                    if (action === "list") {
+                        console.log ("*****")
+                        for(let i = 0; i &lt; myList.length; i++) {
+                            console.log(`${i}: ${myList[i]}`);
+                        }
+                        console.log ("*****")
+                    } else if (action === "new") {
+                        const task = prompt("Enter your task")
+                        myList.push(task)
+                        console.log(`${task} added to your list!`)
+                } else if (action === "delete") {
+                        action = prompt("Enter index of task to delete")
+                        remove = myList.splice(parseInt(action), 1)
+                    }
+                if (action === "quit") {
+                    console.log("Ok bye!")
+                    break
+                }
+                action = prompt("What would you like to do?")
+                </code>
+            </pre>
+            </section>
+
+          </div>
+        </div>
+    </main>
+
+    <footer class="footer footer-wrapper">
+        <div class="container">
+            <a href="https://github.com/lajulia19" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+            <p>&copy;2022</p>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" width="150" class="rs-logo" alt="Rolling Scopes school logo"></a>
+        </div>
+    </footer>
+   <!-- <img src="image.jpg" alt="my photo"> -->
+<p></p>
+</body>
+</html>
